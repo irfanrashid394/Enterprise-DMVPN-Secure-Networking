@@ -1,11 +1,11 @@
 # Enterprise-DMVPN-Secure-Networking
 This project implements a scalable, secure, and redundant DMVPN architecture for enterprise networks. It includes multipoint GRE tunnels, NHRP, EIGRP routing, redundancy, and IPSec encryption for secure communication. The draft documentation provides a step-by-step deployment guide, making it ideal for real-world networking environments. 
-Overview
+## Overview
 This repository provides a comprehensive Dynamic Multipoint VPN (DMVPN) deployment designed for scalable, secure, and resilient enterprise networks. It includes configurations for multipoint GRE tunnels, NHRP, EIGRP routing, redundancy, and IPSec encryption for secure data transmission over public networks.
 
 DMVPN enables seamless site-to-site and remote access VPN connectivity, reducing the complexity of traditional VPN architectures while maintaining security and performance.
 
-Project Scope
+## Project Scope
 This deployment is designed for enterprises, ISPs, and cloud providers requiring secure, dynamic, and scalable VPN connectivity between multiple locations. The implementation ensures:
 ✅ Dynamic Tunnels – No need for static peer-to-peer VPNs
 ✅ Scalability – Supports large-scale remote sites without complex configurations
@@ -13,7 +13,7 @@ This deployment is designed for enterprises, ISPs, and cloud providers requiring
 ✅ Security – End-to-end encryption using IPSec and ISAKMP policies
 ✅ Optimized Routing – Using EIGRP with split-horizon adjustments
 
-Architecture Overview
+## Architecture Overview
 The DMVPN deployment follows a Hub-and-Spoke model with:
 
 Hub Router – Central node managing tunnels dynamically
@@ -37,21 +37,21 @@ Redundant static mappings to ensure continuous operations
 🔹 Phase 5: Security & Encryption
 ISAKMP & IPSec policy implementation
 DMVPN tunnel protected with IPSec profile
-Documentation & Implementation
+## Documentation & Implementation
 The complete step-by-step implementation guide is available in the draft documentation included in this repository.
 
-Technology Stack
+## Technology Stack
 Cisco IOS Routers
 GRE Tunneling & NHRP
 EIGRP Routing Protocol
 IPSec for Encryption
 
-Use Cases
+## Use Cases
 ✔ Enterprise WAN VPN – Secure branch office connectivity
 ✔ Cloud VPN Gateway – Connecting remote users to data centers
 ✔ ISP VPN Services – Scalable VPN solutions for clients
 
-Future Enhancements
+## Future Enhancements
 🔹 Implement BGP over DMVPN for multi-cloud environments
 🔹 Enable QoS policies for traffic prioritization
 🔹 Integrate with SD-WAN solutions
