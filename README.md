@@ -20,7 +20,8 @@ Hub Router – Central node managing tunnels dynamically
 Spoke Routers – Remote sites that establish tunnels as needed
 Routing Protocol – EIGRP for dynamic route propagation
 Encryption – IPSec for secure communication
-Configuration Highlights
+
+# Configuration Highlights
 🔹 Phase 1: Initial Setup
 Basic IP addressing for WAN and LAN
 Static routing for connectivity testing
