@@ -58,5 +58,5 @@ IPSec for Encryption
 
 ### GNS3 Project Files  
 Due to GitHub file size limits, the full **GNS3 portable project** is available for download here:  
-📂 [Download GNS3 Project]([https://drive.google.com/your-link-here](https://drive.google.com/drive/folders/1Yqp0fCCcENL1_hVhUf3ERTgkVTS6Sarj?usp=drive_link)) 
+ [Download GNS3 Project](https://drive.google.com/drive/folders/1Yqp0fCCcENL1_hVhUf3ERTgkVTS6Sarj?usp=drive_link)
 ⚠️ The file is **view-only**—please make a copy before making any modifications
